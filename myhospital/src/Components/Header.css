@@ -1,0 +1,50 @@
+.body
+{
+  margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  6px 12px;
+    background-color: #699BF7;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .LHS-Header
+  {
+  list-style: none;
+  display: flex;
+  gap:10px
+  }
+
+    .LHS-Header img
+    {
+      filter: invert(1) brightness(2);
+    }
+
+
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+    .nav-links li {
+      display: inline;
+    }
+    
+    .nav-links a {
+      color: white;
+      font-family:poppins;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    
+      .nav-links a:hover {
+        text-decoration: underline;
+      }
+  
